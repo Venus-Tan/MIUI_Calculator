@@ -2,11 +2,14 @@
 
 v1.0.1 基本UI算是完成了
 
-![1](https://github.com/Yogurt007/MIUI_Calculator/assets/56493636/c3ed00f6-f749-437b-85cb-817ae021f289)
+![image](https://github.com/Yogurt007/MIUI_Calculator/assets/56493636/6113ef04-669a-4f7a-b1c9-328b29356729)
 
-![2](https://github.com/Yogurt007/MIUI_Calculator/assets/56493636/b25c6e71-2596-4df7-97e1-d1f90545fd4b)
+![image](https://github.com/Yogurt007/MIUI_Calculator/assets/56493636/542844a1-1fff-4f23-9361-ac18f6674d2e)
 
-![3](https://github.com/Yogurt007/MIUI_Calculator/assets/56493636/6ed05b5f-e637-40f4-9f63-b71f459c6381)
+![image](https://github.com/Yogurt007/MIUI_Calculator/assets/56493636/1e65c1bc-03f3-4367-bbf6-3bd7bdcfbdf6)
+
+
+
 
 如果你觉得不满意，可以右转
 如果对你有帮助的话，请点个start，thanks
