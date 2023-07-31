@@ -2,6 +2,7 @@ package com.huajia.calculator.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,6 +10,8 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 
 import com.huajia.calculator.R;
+import com.huajia.calculator.activity.RecordActivity;
+import com.huajia.calculator.activity.SettingActivity;
 
 /**
  * @author: huajia
@@ -36,14 +39,18 @@ public class MenuDialog extends Dialog {
         record.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("点击了历史记录");
+                Intent intent = new Intent(getContext(), RecordActivity.class);
+                getContext().startActivity(intent);
+                dismiss();
             }
         });
 
         setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("设置");
+                Intent intent = new Intent(getContext(), SettingActivity.class);
+                getContext().startActivity(intent);
+                dismiss();
             }
         });
 

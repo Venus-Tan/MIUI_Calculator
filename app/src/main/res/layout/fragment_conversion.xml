@@ -15,6 +15,7 @@
         android:columnCount="3">
 
         <LinearLayout
+            android:id="@+id/rate_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -33,26 +34,28 @@
                     android:layout_height="wrap_content"/>
         </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:src="@drawable/length"/>
-                    <TextView
-                        android:layout_marginTop="5dp"
-                        android:text="长度转换"
-                        android:textColor="#656565"
-                        android:textSize="16sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-            </LinearLayout>
+        <LinearLayout
+            android:id="@+id/length_btn"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/length"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:text="长度转换"
+                    android:textColor="#656565"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/weight_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -72,6 +75,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/area_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -91,6 +95,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/tax_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -110,6 +115,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/home_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -129,6 +135,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/binary_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -148,6 +155,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/volume_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -167,6 +175,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/call_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -186,6 +195,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/time_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -205,6 +215,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/temperature_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -224,6 +235,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/speed_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -244,6 +256,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/capitalization_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -263,6 +276,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/bm_btn"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"

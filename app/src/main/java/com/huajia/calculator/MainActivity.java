@@ -1,6 +1,7 @@
 package com.huajia.calculator;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
@@ -31,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager2 viewPager;
 
     private ImageButton menu;
+
+    private MenuDialog dialog;
 
 
     @SuppressLint("MissingInflatedId")
@@ -83,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MenuDialog dialog = new MenuDialog(MainActivity.this);
+                dialog = new MenuDialog(MainActivity.this);
                 //解决自定义dilog背景白色导致圆角失效
                 dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
                 Window window = dialog.getWindow();
@@ -104,5 +108,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        System.out.println("111");
     }
 }

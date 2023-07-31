@@ -12,6 +12,56 @@
         android:theme="@style/Theme.MIUI_alculator"
         tools:targetApi="31">
         <activity
+            android:name=".activity.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RecordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CapitalizationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SpeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TemperatureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TimeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.VolumeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BinaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TaxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AreaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.WeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LengthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RateActivity"
+            android:exported="false"
+            android:label="@string/title_activity_rate"
+            android:theme="@style/Theme.MIUI_alculator.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
