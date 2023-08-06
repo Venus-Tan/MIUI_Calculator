@@ -6,8 +6,8 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/equal_icon"
+        android:label="计算器"
         android:supportsRtl="true"
         android:theme="@style/Theme.MIUI_alculator"
         tools:targetApi="31">

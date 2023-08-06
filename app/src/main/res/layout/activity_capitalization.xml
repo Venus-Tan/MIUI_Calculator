@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,6 +7,8 @@
     tools:context=".activity.CapitalizationActivity">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
         android:layout_height="60dp">
 
@@ -41,4 +43,34 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:text="0"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/MIUI_yellow"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:text="零元整"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/keypad"
+        android:textSize="44sp"/>
+
+    <include
+        android:id="@+id/keypad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/num_keypad_capitalization"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,62 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activity.CallActivity">
-
-    <androidx.appcompat.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageButton
-                android:id="@+id/returnImg"
-                android:background="@null"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/return1"
-                android:layout_marginLeft="10dp"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
-
-            <TextView
-                android:text="称呼转换"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.appcompat.widget.Toolbar>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="我"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="30dp"
-        android:textColor="@color/black"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@id/gridlayout_up"
-        app:layout_constraintEnd_toEndOf="parent"/>
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <GridLayout
-        android:id="@+id/gridlayout_up"
         android:layout_width="match_parent"
-        android:layout_height="340dp"
+        android:layout_height="350dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="20dp"
@@ -66,59 +16,11 @@
 
 
         <Button
-            android:id="@+id/six"
-            android:layout_width="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="夫"
-            android:background="@drawable/btn_bg"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:textColor="@color/black"
-            android:textSize="28sp"/>
-
-        <Button
-            android:id="@+id/reduce"
-            android:layout_width="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="妻"
-            android:background="@drawable/btn_bg"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:textColor="@color/black"
-            android:textSize="28sp"/>
-
-        <Button
-            android:id="@+id/one"
-            android:layout_width="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="C"
-            android:background="@drawable/btn_bg"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:textColor="@color/MIUI_yellow"
-            android:textSize="28sp"/>
-
-        <Button
-            android:id="@+id/two"
-            android:layout_width="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="X"
-            android:background="@drawable/btn_bg"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:textColor="@color/MIUI_yellow"
-            android:textSize="28sp"/>
-
-        <Button
             android:id="@+id/square"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="父"
+            android:text="7"
             android:background="@drawable/btn_bg"
             android:scaleX="0.8"
             android:scaleY="0.8"
@@ -130,7 +32,7 @@
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="母"
+            android:text="8"
             android:background="@drawable/btn_bg"
             android:scaleX="0.8"
             android:scaleY="0.8"
@@ -142,7 +44,7 @@
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="子"
+            android:text="9"
             android:background="@drawable/btn_bg"
             android:scaleX="0.8"
             android:scaleY="0.8"
@@ -154,66 +56,22 @@
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="女"
-            android:background="@drawable/btn_bg"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:textColor="@color/black"
-            android:textSize="28sp"/>
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="兄"
-            android:background="@drawable/btn_bg"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:textColor="@color/black"
-            android:textSize="24sp" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="弟"
-            android:background="@drawable/btn_bg"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:textColor="@color/black"
-            android:textSize="24sp" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="姐"
-            android:background="@drawable/btn_bg"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:textColor="@color/black"
-            android:textSize="24sp" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:text="妹"
-            android:background="@drawable/btn_bg"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:textColor="@color/black"
-            android:textSize="28sp"/>
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_columnSpan="3"
-            android:text="互查"
+            android:layout_rowSpan="2"
+            android:text="C"
             android:background="@drawable/btn_bg"
             android:scaleX="0.9"
             android:scaleY="0.9"
+            android:textColor="@color/MIUI_yellow"
+            android:textSize="28sp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="4"
+            android:background="@drawable/btn_bg"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
             android:textColor="@color/black"
             android:textSize="24sp" />
 
@@ -221,14 +79,106 @@
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="="
-            android:background="@drawable/btn_bg1"
+            android:text="5"
+            android:background="@drawable/btn_bg"
             android:scaleX="0.8"
             android:scaleY="0.8"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="6"
+            android:background="@drawable/btn_bg"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="1"
+            android:background="@drawable/btn_bg"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="2"
+            android:background="@drawable/btn_bg"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="3"
+            android:background="@drawable/btn_bg"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_rowSpan="2"
+            android:text="X"
+            android:background="@drawable/btn_bg"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:textColor="@color/MIUI_yellow"
             android:textSize="28sp"/>
 
-    </GridLayout>
+        <Button
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="00"
+            android:background="@drawable/btn_bg"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="#656565"
+            android:textSize="20sp" />
 
+        <Button
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="0"
+            android:background="@drawable/btn_bg"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="#656565"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="."
+            android:background="@drawable/btn_bg"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="#656565"
+            android:textSize="20sp" />
+
+
+    </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

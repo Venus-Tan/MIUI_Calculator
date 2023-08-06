@@ -119,4 +119,6 @@
         </LinearLayout>
     </LinearLayout>
 
+    <include layout="@layout/num_keypad_binary"/>
+
 </LinearLayout>
