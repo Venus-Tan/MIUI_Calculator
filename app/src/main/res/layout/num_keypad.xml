@@ -16,7 +16,7 @@
 
 
         <Button
-            android:id="@+id/six"
+            android:id="@+id/clean"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -40,7 +40,6 @@
             android:textSize="28sp"/>
 
         <Button
-            android:id="@+id/one"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -52,7 +51,6 @@
             android:textSize="28sp"/>
 
         <Button
-            android:id="@+id/two"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -64,7 +62,7 @@
             android:textSize="28sp"/>
 
         <Button
-            android:id="@+id/square"
+            android:id="@+id/seven"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -76,7 +74,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/inverse"
+            android:id="@+id/eight"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -88,7 +86,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/zero"
+            android:id="@+id/nine"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -100,7 +98,6 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/point"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -112,6 +109,7 @@
             android:textSize="28sp"/>
 
         <Button
+            android:id="@+id/four"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -123,6 +121,7 @@
             android:textSize="24sp" />
 
         <Button
+            android:id="@+id/five"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -134,6 +133,7 @@
             android:textSize="24sp" />
 
         <Button
+            android:id="@+id/six"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -156,6 +156,7 @@
             android:textSize="28sp"/>
 
         <Button
+            android:id="@+id/one"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -167,6 +168,7 @@
             android:textSize="24sp" />
 
         <Button
+            android:id="@+id/two"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -178,6 +180,7 @@
             android:textSize="24sp" />
 
         <Button
+            android:id="@+id/three"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -189,6 +192,7 @@
             android:textSize="24sp" />
 
         <Button
+            android:id="@+id/add"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -201,6 +205,7 @@
 
 
         <Button
+            android:id="@+id/double_zero"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -212,6 +217,7 @@
             android:textSize="20sp" />
 
         <Button
+            android:id="@+id/zero"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -223,6 +229,7 @@
             android:textSize="20sp" />
 
         <Button
+            android:id="@+id/point"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
