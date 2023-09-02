@@ -18,7 +18,5 @@
 
 <img width="408" alt="image" src="https://github.com/Yogurt007/MIUI_Calculator/assets/56493636/39346922-0012-4d90-9bb1-8bf6f12cd88e">
 
-
-如果你觉得不满意，可以右转
-如果对你有帮助的话，请点个start，thanks
+如果对你有帮助的话，点个star啦
 
